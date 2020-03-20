@@ -1,6 +1,10 @@
+//intro to hooks
 import React, {useState} from 'react'
 
+//hook is a special function that lets you hook into React function
+
 function HookCounter(){
+
 
     const [count, setCount] = useState(0)
 
