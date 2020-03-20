@@ -4,7 +4,8 @@ import React, {useState} from 'react'
 function HookCounterThree() {
 
     const [name, setName] = useState({firstName: '', lastName: ''})
-    //can return a string, boolean, object
+    //can return a string, boolean, object, array;
+    
 
     return (
         <form>
