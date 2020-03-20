@@ -5,12 +5,13 @@ import React, { Component } from 'react'
 class ClassCounter extends Component {
     constructor(props){
         super(props)
-        //second is to set a stat4
+        //second is to set a state variable
         this.state = {
             count : 0
         }
     }
 
+    //create a method
     incrementCount = () =>{
         this.setState({
             count: this.state.count + 1
