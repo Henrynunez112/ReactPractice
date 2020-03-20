@@ -1,3 +1,4 @@
+//using an object as a state variable
 import React, {useState} from 'react'
 
 function HookCounterThree() {
