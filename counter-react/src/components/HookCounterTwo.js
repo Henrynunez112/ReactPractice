@@ -1,7 +1,10 @@
-import React, {useState} from 'react'
+//how to setState using the Previous State (prevCount)
+
+import React, {useState} from 'react';
 
 function HookCounterTwo() {
     const initialCount = 0;
+    
     const [count, setCount] = useState(initialCount);
 
     const incrementFive = () =>{
